@@ -157,3 +157,155 @@ print(df)
                                     
                                     
                                     # DAY-1 CLZ FINISHED
+
+
+
+
+
+
+
+
+
+
+
+
+                                    # DAY-2 CLZ 
+
+
+
+#  kaggle.com website visite cheyyanam (Datas kittum koree )
+
+# pandass library nokki njan late aaytt annu clz ill kerriyee
+
+
+
+# video or image enganne capture cheyyam?
+
+
+# image load cheyyan 
+import cv2
+
+
+
+# cv2 install cheyyan : pip install cv2-python
+
+# img = cv2.imread('img.webp')
+# cv2.imshow('its img', image)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
+
+
+
+# live video capture cheyyan  cheyyan (camera open aavum)
+
+# video = cv2.VideoCapture(0)
+# if not Video.isOpenes():
+#     print('no camera found')
+#     exit()
+# While True:
+#     red,frame = video.read()
+#     if not red:
+#         print('can not read frame')
+#         break
+#     cv2.imshow('img showing', frame)
+#     key = cv2.waitkey(1) & 0xff
+#     if key == 'q':
+#         break
+#     elif key == 's':
+#         cv2.imwrite('writeimg.jpg', frame)
+#         print('img writed')
+#     video.release()
+# cv2.destroyAllwindows()
+
+
+
+# flipp cheyyan vendii
+
+
+# video = cv2.VideoCapture(0)
+# if not Video.isOpenes():
+#     print('no camera found')
+#     exit()
+# While True:
+#     red,frame = video.read()
+#     if not red:
+#         print('can not read frame')
+#         break
+#     flipped = cv2.flip(frame,1)
+# cv2.imshow('img showing',flipped)
+# key = cv2.waitKey(1)& 0xff
+#     if key == 'q':
+#         break
+#     elif key == 's':
+#         cv2.imwrite('writeimg.jpg', frame)
+#         print('img writed')
+#     video.release()
+# cv2.destroyAllwindows()
+
+
+
+#  color maatan
+# iny pie plot install cheyyanam athinu vendii mat plot lib koodee vennam
+# > pip install matplotlib 
+# matplotlib inee import cheyyanam
+
+import matplotlib.pyplot as plt
+
+# img = cv2.imread('img.jpg')
+# rgb = cv2.cvtcolor(img,cv2.COLOR_BGR2RGB)
+
+# plt.subplot(1,3,1)
+# plt.imshow(cv2.cvColor(img,cv2.COLOR_BGR2RGB))
+# plt.title('data')
+# plt.show()
+# plt.savefig('out.webp')
+
+
+# color convercetion or color scale
+# img = cv2.imread('img.jpg')
+# rgb = cv2.cvtcolor(img,cv2.COLOR_BGR2RGB)
+
+# plt.subplot(1,3,1)
+# plt.imshow(cv2.cvColor(img,cv2.COLOR_BGR2GRAY))
+# plt.title('data')
+# plt.show()
+# plt.savefig('out.webp')
+
+
+                    # or
+# img = cv2.imread('img.jpg')
+# rgb = cv2.cvtcolor(img,cv2.COLOR_BGR2RGB)
+
+# plt.subplot(1,3,1)
+# plt.imshow(cv2.cvColor(img,cv2.COLOR_BGR2HSV))
+# plt.title('data')
+# plt.show()
+# plt.savefig('out.webp')
+
+
+                             ###########################################################################
+
+# project illekk ai-integration aanuu nokkkune 
+# > athyavisham running aayirikkanam 
+# > korachu ussers vennam 
+
+# django project git hub ill ninn clone cheyyanam 
+
+#recomentation add cheyyan
+
+#  models.py :
+
+# 1)
+#   > product intee model ill:    > rating = models.FloatField(default=0) 
+                                # > Vector_data=models.TextField(null=True)
+# ee 2 field koodee include cheyyanam
+
+
+# 2) user model : user fields illekkum ee line add cheyyanam 
+#     > Vector_data=models.TextField(null=True)
+
+# user search cheyyumboo , illengii buy cheyyummbo  aa products innu related ayaa products next time kaanikkan ee fields kodukkanam 
+
+
+                                    # DAY-2 CLZ FINISHED
+
