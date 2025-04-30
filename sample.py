@@ -309,3 +309,35 @@ import matplotlib.pyplot as plt
 
                                     # DAY-2 CLZ FINISHED
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    # DAY-2 CLZ
+
+# sir code explaining (vectorize.py)
+
+# user inte vector data add aakan models.py ill ponam 
+# aswanth sir git hub ill project : "universal"
+
+
+
+
+
+                                    # DAY-2 CLZ FINISHED
